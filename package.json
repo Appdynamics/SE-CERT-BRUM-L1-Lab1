@@ -1,0 +1,24 @@
+{
+  "name": "se-cert-brum-l1-lab1",
+  "version": "1.0.0",
+  "description": "Hand on lab for SE certification",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/REPO_HERE/repo.git"
+  },
+  "author": {
+    "name": "Derrek Young",
+    "email": "derrek.young@appdynamics.com",
+    "url": "http://www.appdynmics.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7"
+  }
+}

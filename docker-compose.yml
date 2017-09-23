@@ -1,0 +1,9 @@
+version: "2"
+services:
+  app:
+    build: .
+    container_name: lab1
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
