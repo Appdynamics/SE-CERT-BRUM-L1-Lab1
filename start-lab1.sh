@@ -13,7 +13,7 @@ echo "Installing/updating packages"
 npm install
 
 echo "Killing running lab instances of $LAB_NAME"
-pkill -f "node src/index.js"
+pkill -f "index.js"
 
 echo "Starting the lab"
 nohup npm start > /dev/null 2>&1 &
