@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Ubuntu startup script for the lab
 
 LAB_NAME="SE-CERT-BRUM-L1-Lab1"
