@@ -12,6 +12,9 @@ git pull
 echo "Installing/updating packages"
 npm install
 
+echo "Killing running lab instances of $LAB_NAME"
+pkill -f $LAB_NAME
+
 echo "Starting the lab"
 nohup npm start &
 
