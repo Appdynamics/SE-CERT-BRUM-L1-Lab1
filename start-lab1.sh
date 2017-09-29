@@ -16,6 +16,6 @@ echo "Killing running lab instances of $LAB_NAME"
 pkill -f $LAB_NAME
 
 echo "Starting the lab"
-nohup npm start &
+nohup npm start > /dev/null 2>&1 &
 
 exit 0
