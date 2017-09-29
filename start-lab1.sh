@@ -14,3 +14,5 @@ npm install
 
 echo "Starting the lab"
 nohup npm start &
+
+exit 0
