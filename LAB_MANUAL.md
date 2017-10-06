@@ -42,10 +42,10 @@ Report the following custom user data. You&#39;ll verify this data in Browser An
 
 1. Verify this user data in your page snapshots and paste a screenshot here.
 2. Are you seeing this user data in any ajax snapshots?
-  1. Why or why not?
+   1. Why or why not?
 3. Notice that setting user data for pricePaid instructs you to call a custom function.
-  1. Where is this function located?
-  2. Explain how the JS agent is able to take advantage of this function.
+   1. Where is this function located?
+   2. Explain how the JS agent is able to take advantage of this function.
 
 # Analyze the Data in Browser Analytics
 
@@ -57,17 +57,17 @@ Report the following custom user data. You&#39;ll verify this data in Browser An
 # Set a Custom Page Name in the Config
 
 1. What does BRUM use by default to name the page?
-  1. How does this show up in the UI?
+   1. How does this show up in the UI?
 2. Set a custom page name of &quot;BRUM Lab&quot; by editing the JS agent&#39;s configuration. **Do not use the UI to rename the page.**
 3. What happens to your list of Pages &amp; Ajax Requests?
-  1. Is the original name still available somewhere?
+   1. Is the original name still available somewhere?
 4. Did this impact your Browser Analytics dashboard?
 
 # Increase the resource timing limit
 
 1. While not a problem on this page, some web pages can contain several hundred external resources.
-  1. What might be the impact on a page with so many resources? Why?
-  2. How will different resources impact the CRP, e.g. images vs CSS?
+   1. What might be the impact on a page with so many resources? Why?
+   2. How will different resources impact the CRP, e.g. images vs CSS?
 2. Edit the JS agent configuration to increase the resource timing limit to 200.
 
 # Troubleshooting
@@ -80,6 +80,6 @@ Report the following custom user data. You&#39;ll verify this data in Browser An
 6. What is the slowest domain serving resources? How do you know?
 7. What visibility do you have into Server Time? Why?
 8. What insight do you find in your browser&#39;s Dev Tools?
-  1. How does this compare to the data in BRUM?
-  2. Why are they different?
+   1. How does this compare to the data in BRUM?
+   2. Why are they different?
 9. Create a HAR file and save it to demonstrate that you created it.
