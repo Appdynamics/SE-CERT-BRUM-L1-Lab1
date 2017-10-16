@@ -19,8 +19,8 @@ If you get stuck, make sure that you have a good config in the Controller and su
 
 This lab consists of a single page that will automatically refresh itself. This is especially useful for driving load during the lab. Uncheck the checkbox in the upper right if you want to stop the auto-reload.
 
-1. Start the lab with your chosed method in the [README](README.md)
-1. Open the Lab 1 app at **http://YOUR_VM_URL:3000**
+1. Start the lab with your chosen method in the [README](README.md)
+1. Open the Lab 1 app at **http://YourVMURL:3000**
 2. Open an SSH window and SSH into the VM and cd into SE-CERT-BRUM-L1-Lab1/
 
 # 3) Manually add the JS agent to the page
@@ -28,15 +28,17 @@ This lab consists of a single page that will automatically refresh itself. This 
 1. Create a new BRUM app in your Controller.
 2. Follow the official documentation to manually add the JS agent to the SE-CERT-BRUM-L1-Lab1/src//public/index.html file.
 
-# Add Page user data to the config
+# 4) Add Page user data to the config
 
-Report the following custom user data. You&#39;ll verify this data in Browser Analytics so make sure that you&#39;re using the correct data type in the user data configuration. (Enter the **exact** parts in blue as your custom data.)
+Report the following custom user data. You&#39;ll verify this data in Browser Analytics so make sure that you&#39;re using the correct data type in the user data configuration. 
+
+Be careful with what you enter here for the variable names. The underlying datastore does not allow you to change a metric type once it is defined. For example, if you define courseRating as a Date you can never change it to a Boolean. You would need to define a new variable name.
 
 | **Variable Name** | **Description** | **Which data type should you use?** |
 | --- | --- | --- |
-| username | Enter your name |   |
+| myName | Enter your name |   |
 | courseRating | Enter &quot;Math.floor(Math.random() \* 5 + 1)&quot; |   |
-| pricePaid | Enter &quot;getPrice(5, 50)&quot; |   |
+| pricePaid | Enter &quot;getPrice()&quot; |   |
 | dateSent | Enter &quot;new Date().getTime()&quot; |   |
 | isDone | Enter &quot;true&quot; |   |
 
@@ -47,14 +49,14 @@ Report the following custom user data. You&#39;ll verify this data in Browser An
    1. Where is this function located?
    2. Explain how the JS agent is able to take advantage of this function.
 
-# 4) Analyze the Data in Browser Analytics
+# 5) Analyze the Data in Browser Analytics
 
-1. Enable Browser Analytics for your application.
+1. Enable Analytics for your application.
 2. Create a new Analytics search to verify your user data.
-3. Create visualizations for each of your custom data metrics.
+3. Create visualizations for each of your custom data metrics. Any visualizations will do.
 4. Paste a screenshot of your visualizations.
 
-# 5) Set a Custom Page Name in the Config
+# 6) Set a Custom Page Name in the Config
 
 1. What does BRUM use by default to name the page?
    1. How does this show up in the UI?
@@ -63,14 +65,14 @@ Report the following custom user data. You&#39;ll verify this data in Browser An
    1. Is the original name still available somewhere?
 4. Did this impact your Browser Analytics dashboard?
 
-# 6) Increase the resource timing limit
+# 7) Increase the resource timing limit
 
 1. While not a problem on this page, some web pages can contain several hundred external resources.
    1. What might be the impact on a page with so many resources? Why?
    2. How will different resources impact the CRP, e.g. images vs CSS?
 2. Edit the JS agent configuration to increase the resource timing limit to 200.
 
-# 7) Troubleshooting
+# 8) Troubleshooting
 
 1. Do the snapshots indicate any particular performance issues? Explain.
 2. What are the slowest resources and images?
