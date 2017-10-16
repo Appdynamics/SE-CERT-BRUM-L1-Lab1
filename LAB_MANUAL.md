@@ -37,7 +37,7 @@ Report the following custom user data. You&#39;ll verify this data in Browser An
 | username | Enter your name |   |
 | courseRating | Enter &quot;Math.floor(Math.random() \* 5 + 1)&quot; |   |
 | pricePaid | Enter &quot;getPrice(5, 50)&quot; |   |
-| timestamp | Enter &quot;new Date().getTime()&quot; |   |
+| dateSent | Enter &quot;new Date().getTime()&quot; |   |
 | isDone | Enter &quot;true&quot; |   |
 
 1. Verify this user data in your page snapshots and paste a screenshot here.
