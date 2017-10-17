@@ -30,5 +30,5 @@ function randomDouble(min, max) {
       ? (1 - Math.random()) * (max - min) + min
       : Math.random() * (max - min) + min;
 
-  return double.toFixed(2);
+  return parseFloat(double.toFixed(2));
 }
