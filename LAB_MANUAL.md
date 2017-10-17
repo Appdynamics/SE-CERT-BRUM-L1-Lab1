@@ -19,14 +19,14 @@ If you get stuck, make sure that you have a good config in the Controller and su
 
 This lab consists of a single page that will automatically refresh itself. This is especially useful for driving load during the lab. Uncheck the checkbox in the upper right if you want to stop the auto-reload.
 
-1. Start the lab with your chosen method in the [README](README.md)
+1. If using the Ravello VM, then your app will automatically start. Otherwise, start the lab with your chosen method in the [README](README.md).
 1. Open the Lab 1 app at **http://YourVMURL:3000**
 2. Open an SSH window and SSH into the VM and cd into SE-CERT-BRUM-L1-Lab1/
 
 # 3) Manually add the JS agent to the page
 
 1. Create a new BRUM app in your Controller.
-2. Follow the official documentation to manually add the JS agent to the SE-CERT-BRUM-L1-Lab1/src//public/index.html file.
+1. Follow the official documentation to manually add the JS agent to the SE-CERT-BRUM-L1-Lab1/src/public/index.html file.
 
 # 4) Add Page user data to the config
 
