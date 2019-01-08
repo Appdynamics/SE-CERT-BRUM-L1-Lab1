@@ -43,7 +43,7 @@ Be careful with what you enter here for the variable names. The underlying datas
 | isDone | Enter &quot;true&quot; |   |
 
 1. Verify this user data in your page snapshots and paste a screenshot here.
-2. Are you seeing this user data in any ajax snapshots?
+2. Would you see this user data in any ajax or virtual page snapshots if you had them?
    1. Why or why not?
 3. Notice that setting user data for pricePaid instructs you to call a custom function.
    1. Where is this function located?
